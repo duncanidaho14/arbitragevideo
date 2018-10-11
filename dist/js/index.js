@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),require("bootstrap");var pokedex_1=require("./pokedex"),value=JSON.stringify(pokedex_1.default);console.log(value);
+//# sourceMappingURL=index.js.map
