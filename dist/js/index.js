@@ -1,2 +1,2 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),require("bootstrap");var pokedex_1=require("./pokedex"),value=JSON.stringify(pokedex_1.default);console.log(value);
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var jquery_1=require("jquery");require("bootstrap"),jquery_1.default(document).ready(function(){console.log(document)});var courses={},xmlhttp=new XMLHttpRequest;xmlhttp.open("GET","./pokedex.json",!0),xmlhttp.onreadystatechange=function(){4==xmlhttp.readyState&&200==xmlhttp.status&&(courses=console.log(JSON.parse(xmlhttp.responseText)))},xmlhttp.send(null);
 //# sourceMappingURL=index.js.map
