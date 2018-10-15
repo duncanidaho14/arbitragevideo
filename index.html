@@ -38,6 +38,28 @@
                         <a class="nav-link disabled" href="#">Disabled</a>
                     </li>
                 </ul>
+                <div class="content">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="#">Auth0 - JavaScript</a>
+                
+                                <button id="btn-home-view" class="btn btn-primary btn-margin">
+                                    Home
+                                </button>
+                
+                                <button id="btn-login" class="btn btn-primary btn-margin">
+                                    Log In
+                                </button>
+                
+                                <button id="btn-logout" class="btn btn-primary btn-margin">
+                                    Log Out
+                                </button>
+                
+                            </div>
+                        </div>
+                    </nav>
+                </div>
                 <form class="form-inline mt-2 mt-md-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -229,6 +251,11 @@
             </div>
         </div>
     </main>
+<!-- index.html -->
+
+    <footer class="footer">
+
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -236,8 +263,9 @@
     
     <script src="./dist/js/popper.min.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/auth0-js/build/auth0.js"></script>
 
-    <script src="./dist/js/index-dist.js"></script>
+    <script src="./dist/js/index.js"></script>
 </body>
 
 </html>
